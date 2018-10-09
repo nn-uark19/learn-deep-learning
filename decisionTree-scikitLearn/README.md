@@ -1,5 +1,12 @@
 # gender_classification_challenge
 
+
+1. Source 
+    1. Video: https://www.youtube.com/watch?v=T5pRlIbr6gg&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU
+    2. Code (url from video): https://github.com/llSourcell/gender_classification_challenge
+    3. winner's code:: https://github.com/Naresh1318/GenderClassifier/blob/master/Run_Code.py
+
+
 ##Overview
 
 This is the code for the gender classification challenge for 'Learn Python for Data Science #1' by @Sirajology on [YouTube](https://youtu.be/T5pRlIbr6gg). The code uses the [scikit-learn](http://scikit-learn.org/) machine learning library to train a [decision tree](https://en.wikipedia.org/wiki/Decision_tree) on a small dataset of body metrics (height, width, and shoe size) labeled male or female. Then we can predict the gender of someone given a novel set of body metrics. 
