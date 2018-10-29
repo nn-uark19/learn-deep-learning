@@ -1,3 +1,32 @@
+###################### 
+# Tutorial
+
+Source: 
+	https://www.youtube.com/watch?v=GBkOMtc9BIk&t=499s
+	https://github.com/zackchase/mxnet-the-straight-dope
+
+Install: for cpu
+	sudo pip install --upgrade pip
+	pip install jupyter --user
+	pip install mxnet --pre --user
+For GPU
+	pip install mxnet-cu90
+	pip install mxnet-cu75 --pre --user
+	pip install mxnet-cu80 --pre --user
+
+
+Check mxnet version and file
+	import mxnet
+	print(mxnet.__version__)
+	print(mxnet.__file__)
+
+NDArray: check the context (cpu/gpu)
+	print(x_gpu.context)
+
+
+
+========================================
+
 Source: https://www.youtube.com/watch?v=DSNvm29kIAo
 - From video: https://github.com/llSourcell/MXNet
 
