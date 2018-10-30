@@ -4,6 +4,7 @@
 Source: 
 	https://www.youtube.com/watch?v=GBkOMtc9BIk&t=499s
 	https://github.com/zackchase/mxnet-the-straight-dope
+	content: https://gluon.mxnet.io/
 
 Install: for cpu
 	sudo pip install --upgrade pip
