@@ -17,3 +17,8 @@ cmake -D BLAS=open ..
 make all -j $(nproc)
 make install
 ```
+
+
+# error No module named skimage.io
+https://github.com/yahoo/open_nsfw/issues/13
+

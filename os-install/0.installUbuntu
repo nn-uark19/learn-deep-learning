@@ -1,0 +1,12 @@
+GENERAL
+- update. using Software Updater
+- download, install google chrome. https://www.google.com/chrome/
+- install dropbox. https://www.dropbox.com/install
+- wunderlist. http://sourcedigit.com/21169-install-wunderlist-app-wunderlistux-ubuntu-16-10-ubuntu-16-04/
+- exFat. https://askubuntu.com/questions/451364/how-to-enable-exfat-in-ubuntu-14-04
+- microsoft office. 
+	sudo apt-get install playonlinux winbind -y
+	https://www.youtube.com/watch?v=Vf8zr096mYQ
+- VLC. 	sudo apt install vlc
+- foxit reader
+- xdm download manager: https://sourceforge.net/projects/xdman/

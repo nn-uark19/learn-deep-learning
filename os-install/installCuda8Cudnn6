@@ -1,0 +1,35 @@
+
+- install cuda 8.0
+	download the installation and the upgrade from https://developer.nvidia.com/cuda-80-ga2-download-archive
+	sudo dpkg -i cuda-repo-ubuntu1404-8-0-local-ga2_8.0.61-1_amd64.deb`
+	`sudo apt-get update`
+	`sudo apt-get install cuda`	
+	install the upgraded 
+
+
+- install cudnn v6
+	CUDNN_TAR_FILE="cudnn-8.0-linux-x64-v6.0.tgz"
+	wget http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/${CUDNN_TAR_FILE}
+	tar -xzvf ${CUDNN_TAR_FILE}
+	sudo cp -P cuda/include/cudnn.h /usr/local/cuda-8.0/include
+	sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda-8.0/lib64/
+	sudo chmod a+r /usr/local/cuda-8.0/include/cudnn.h /usr/local/cuda-8.0/lib64/libcudnn*
+
+
+- update bashrc file. source https://gist.github.com/vbalnt/a0f789d788a99bfb62b61cb809246d64		# update bashrc file	
+	Open .bashrc from your home folder with an editor (the dot indicates that it is a hidden file). a way to do this for example is
+
+	gedit ~/.bashrc
+	Add the following lines to the end of the file.
+
+	# add cuda tools to command path
+	export PATH=/usr/local/cuda/bin:${PATH}
+	export MANPATH=/usr/local/cuda/man:${MANPATH}
+
+	# add cuda libraries to library path
+	if [[ "${LD_LIBRARY_PATH}" != "" ]]
+	then
+	  export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH}
+	else
+	  export LD_LIBRARY_PATH=/usr/local/cuda/lib64
+	fi

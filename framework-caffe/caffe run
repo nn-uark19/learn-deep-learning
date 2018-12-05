@@ -1,7 +1,7 @@
  export PYTHONPATH=/media/nnguyen/DATA/Z-others/caffe/build/install/python:$PYTHONPATH
  export PYTHONPATH=/media/nnguyen/DATA/Z-others/caffe/build/install/python
 
-export LD_LIBRARY_PATH=/media/nhnguyen/DATA/Z-others/caffe/build/install/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/media/nnguyen/DATA/Z-others/caffe/build/install/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 
 python2.7
 import caffe

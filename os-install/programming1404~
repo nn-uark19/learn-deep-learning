@@ -13,8 +13,15 @@ Install OpenCV. Test if working. Update basrc file
 	pkg-config --modversion opencv
 	https://docs.opencv.org/3.4.3/d7/d9f/tutorial_linux_install.html
 	https://www.pyimagesearch.com/?s=opencv+install+ubuntu&submit=Search&paged=3
-	https://gist.github.com/vbalnt/a0f789d788a99bfb62b61cb809246d64
+	https://gist.github.com/vbalnt/a0f789d788a99bfb62b61cb809246d64		# update bashrc file
 	https://www.youtube.com/watch?v=0vjC2UHptU4&t=715s
 
 Install Cuda, cudnn
 	in tensorflow tutorial
+
+
+
+======================
+==== GUI INSTALL
+Matlab
+	https://xunyunliu.github.io/post/install_matlab/
