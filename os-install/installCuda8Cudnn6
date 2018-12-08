@@ -1,4 +1,11 @@
 
+- Check if you have nvidia graphic card by running the following command in the terminal
+	lspci -nnk | grep -i nvidia
+	nvcc --version
+
+- Get your system information 
+	uname -m && cat /etc/*release
+
 - install cuda 8.0
 	download the installation and the upgrade from https://developer.nvidia.com/cuda-80-ga2-download-archive
 	sudo dpkg -i cuda-repo-ubuntu1404-8-0-local-ga2_8.0.61-1_amd64.deb`
@@ -16,11 +23,9 @@
 	sudo chmod a+r /usr/local/cuda-8.0/include/cudnn.h /usr/local/cuda-8.0/lib64/libcudnn*
 
 
-- update bashrc file. source https://gist.github.com/vbalnt/a0f789d788a99bfb62b61cb809246d64		# update bashrc file	
-	Open .bashrc from your home folder with an editor (the dot indicates that it is a hidden file). a way to do this for example is
-
-	gedit ~/.bashrc
-	Add the following lines to the end of the file.
+- update bashrc file. source https://gist.github.com/vbalnt/a0f789d788a99bfb62b61cb809246d64	
+	# update bashrc file. Open .bashrc from your home folder with an editor (the dot indicates that it is a hidden file). a way to do this for example isgedit ~/.bashrc
+	# Add the following lines to the end of the file.
 
 	# add cuda tools to command path
 	export PATH=/usr/local/cuda/bin:${PATH}
@@ -32,4 +37,31 @@
 	  export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH}
 	else
 	  export LD_LIBRARY_PATH=/usr/local/cuda/lib64
+	fi
+
+- two versions of cuda at the same time
+	#!/bin/bash
+	# added by NN
+	# add cuda tools to command path
+	export PATH=/usr/local/cuda-8.0/bin:${PATH}
+	export MANPATH=/usr/local/cuda-8.0/man:${MANPATH}
+	# add cuda libraries to library path
+	if [[ "${LD_LIBRARY_PATH}" != "" ]]
+	then
+	  export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:${LD_LIBRARY_PATH}
+	else
+	  export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64
+	fi
+
+	#!/bin/bash
+	# added by NN
+	# add cuda tools to command path
+	export PATH=/usr/local/cuda-9.0/bin:${PATH}
+	export MANPATH=/usr/local/cuda-9.0/man:${MANPATH}
+	# add cuda libraries to library path
+	if [[ "${LD_LIBRARY_PATH}" != "" ]]
+	then
+	  export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:${LD_LIBRARY_PATH}
+	else
+	  export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64
 	fi
