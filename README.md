@@ -8,3 +8,8 @@
 
 - Learning Rate: https://developers.google.com/machine-learning/crash-course/fitter/graph
 
+- Playground is a program developed especially for this course to teach machine learning principles: http://playground.tensorflow.org
+
+
+
+
