@@ -10,6 +10,10 @@
 
 - Playground is a program developed especially for this course to teach machine learning principles: http://playground.tensorflow.org
 
+- Feature Crosses: https://developers.google.com/machine-learning/crash-course/feature-crosses/playground-exercises
 
+- Regularization for Simplicity: https://developers.google.com/machine-learning/crash-course/regularization-for-simplicity/playground-exercise-examining-l2-regularization
 
+- L1 vs L2: https://developers.google.com/machine-learning/crash-course/regularization-for-sparsity/l1-regularization
 
+- Non-linearity of Neural Net: https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/playground-exercises
