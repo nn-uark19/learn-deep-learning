@@ -12,6 +12,9 @@
 
 - Matlab. https://xunyunliu.github.io/post/install_matlab/
 
+- Pycharm
+	sudo snap install pycharm-community --classic
+	* In order to add parameter/ parser, use this https://www.youtube.com/watch?v=Byta5WkeNiA
 
 ======================
 NOTE:

@@ -31,6 +31,7 @@ Install OpenCV. Test if working. Update basrc file
 	cd build
 
 	cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_NEW_PYTHON_SUPPORT=ON .. 
+	# below is the working one. 16.04
 	cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_GTK=ON ..   #GTK for imshow 
 	cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_GTK=ON -D OPENCV_EXTRA_MODULES_PATH=/home/nnguyen/Downloads/opencv_contrib/modules .. #GTK for imshow 
 	make -j$(nproc)

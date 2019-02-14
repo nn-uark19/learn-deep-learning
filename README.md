@@ -17,3 +17,5 @@
 - L1 vs L2: https://developers.google.com/machine-learning/crash-course/regularization-for-sparsity/l1-regularization
 
 - Non-linearity of Neural Net: https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/playground-exercises
+
+- Backpropagation: https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/

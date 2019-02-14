@@ -1,0 +1,8 @@
+You can have access to our 8 gpu server via SSH. IP: 72.204.83.186, port: 8122.
+Use the following command to connect
+ssh <username>@72.204.83.186 -p 8122
+
+Acounts (Please keep this info SECURE): 
+For nghia —> nhnghia
+For Ibsa —> ikjalata
+Password: <username>2018 (change it after you login)

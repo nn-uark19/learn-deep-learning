@@ -6,7 +6,7 @@ global setup
 	git config --global user.name "Nghia Nguyen"
 
 Check for existing SSH. If not generate + Adding your SSH key to the ssh-agent
-	ls -al ~/.ssh
+	ls -al ~/.ssh	# if no directory, then no exist, move on to next line
 	ssh-keygen -t rsa -b 4096 -C "nhuunghia_1711@yahoo.com.vn"
 	eval "$(ssh-agent -s)"
 	ssh-add ~/.ssh/id_rsa
