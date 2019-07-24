@@ -1,0 +1,15 @@
+GENERAL
+- teamviewer. https://www.youtube.com/watch?v=pCr_3vfpISU
+- update. using Software Updater
+- download, install google chrome. https://www.google.com/chrome/
+- install dropbox. https://www.dropbox.com/install
+- exFat. https://askubuntu.com/questions/451364/how-to-enable-exfat-in-ubuntu-14-04
+- microsoft office. source: https://www.youtube.com/watch?v=Vf8zr096mYQ
+	sudo apt-get install playonlinux winbind -y	
+- VLC. 	sudo snap install vlc
+
+
+
+- foxit reader
+- xdm download manager: https://sourceforge.net/projects/xdman/
+- wunderlist. http://sourcedigit.com/21169-install-wunderlist-app-wunderlistux-ubuntu-16-10-ubuntu-16-04/

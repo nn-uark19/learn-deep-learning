@@ -1,9 +1,0 @@
-Open a terminal and run the following 3 commands
-
-	sudo add-apt-repository ppa:graphics-drivers/ppa
-	sudo apt update
-	sudo apt install nvidia-390
-	Reboot your computer. To verify the installation, open a terminal and run the following command
-
-	nvidia-smi
-	The output should show the GPU name and the driver

@@ -1,0 +1,67 @@
+
+## Installation
+	0.Install dependencies
+	I.Install Cuda + Install CuDNN
+	II. Set up Anaconda
+	III. install Tensorflow
+	IV. (optional) Install Keras + optional libraries
+	V. Confirm intallation
+
+
+- 0. Install dependencies
+	# Update apt-get
+	sudo apt-get update
+	# Install dependencies
+	sudo apt-get install libglu1-mesa libxi-dev libxmu-dev -y
+	sudo apt-get install build-essential -y
+	sudo apt-get install python3-pip python3-dev -y
+	sudo apt-get install python3-numpy python3-scipy -y
+	sudo apt-get install python3-virtualenv virtualenv -y
+	sudo apt-get install python-yaml -y
+	sudo apt-get install libhdf5-serial-dev -y
+
+- I. Install CUDA + Install CuDnn
+	File install Cuda9Cudnn7
+
+- II. Set up Anaconda
+
+
+- III. install Tensorflow
+	pip install tensorflow-gpu
+
+- IV. (optional) Install Keras + optional libraries
+	pip install keras
+	conda install install pandas
+	conda install install h5py
+
+- V. Confirm intallation
+	import tensorflow as tf
+	import keras
+	import h5py
+	import pandas as pd
+	import numpy as np
+	import scipy
+
+	sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+
+
+	# version 2
+	start a python interpreter in the terminal by typing
+	python
+	run the following lines
+	>>> import tensorflow as tf
+	>>> hello = tf.constant('hello tensorflow')
+	>>> with tf.Session() as sesh:
+	>>>     sesh.run(hello)     
+	the output should be
+	>>> 'hello tensorflow'
+
+- VI. to make sure tensorflow works in jupyter notebook
+	# in terminal, activate conda env
+	which ipython
+	which jupyter
+	which python
+
+	# in jupyter notebook,
+	import sys
+	sys.executable

@@ -1,9 +1,0 @@
-- conda 
-
-matplotlib pandas
-	conda install jupyter notebook matplotlib pandas
-conda install -c conda-forge sklearn-contrib-lightning 
-Conda install tensorflow jupyter notebook
-	Jupiter notebook choose the environment. Mostly for tensor flow
-	matplotlib. Drawing
-	sklearn. Split random data. Basic machine learning package
